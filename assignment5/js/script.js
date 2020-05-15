@@ -53,7 +53,7 @@ var switchMenuToActive = function () {
   // Add 'active' to menu button if not already there
   classes = document.querySelector("#navMenuButton").className;
   if (classes.indexOf("active") == -1) {
-    classes += " active";
+    classes += "active";
     document.querySelector("#navMenuButton").className = classes;
   }
 };
